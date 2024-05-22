@@ -2,6 +2,7 @@ import { Outlet } from 'react-router-dom';
 import Sidebar from '../components/Sidebar';
 import BigSidebar from '../components/BigSidebar';
 import DownBar from '../components/DownBar';
+import MainSidebar from '../components/MainSidebar';
 import { useState } from 'react';
  
 
@@ -10,8 +11,9 @@ const Layout = () => {
   const handleOpen = () => setIsOpen(open => !open)
   return (
     <div className='container h-screen mx-auto pt-5 flex'>
-      <aside>
-        <BigSidebar />
+        <MainSidebar toggle={isOpen}/>
+      <aside> 
+        <BigSidebar handleOpen={isOpen} hidden='hidden' />
       </aside>
       <div className=' w-full rounded-lg pt-2 pb-16 sm:pb-14 sm:py-5 px-4 sm:px-8 overflow-y-auto scrollbar-hide'>
         <Outlet />
