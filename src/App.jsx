@@ -5,10 +5,13 @@ import Resume from './pages/Resume';
 import Contakt from './pages/Contakt';
 import Layout from './pages/Layout';
 import Works from './pages/Works';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
     <BrowserRouter>
+    <ToastContainer/>
       <Routes>
         <Route path='/' element={<Layout/>}>
           <Route index element={<About/>} />

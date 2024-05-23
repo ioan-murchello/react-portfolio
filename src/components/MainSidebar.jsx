@@ -17,8 +17,8 @@ const MainSidebar = ({toggle}) => {
   return (
     <div
       className={`fixed overflow-auto pb-32 ${
-        toggle ? 'translate-y-0 overflow-auto' : '-translate-y-full '
-      } pt-6 flex top-0 flex-col justify-start items-center transition-transform duration-500 ease-in-out  w-full h-full   bg-white z-10`}
+        toggle ? 'translate-x-0 overflow-auto' : '-translate-x-full '
+      } pt-6 flex top-0 left-0 flex-col justify-start items-center transition-transform duration-500 ease-in-out w-full h-full bg-white z-10`}
     >
       <div className='w-40 relative flex-shrink-0 h-40 rounded-full mb-7 overflow-hidden shadow-lg'>
         <img className='w-full h-full object-cover' src={avatar} alt='avatar' />

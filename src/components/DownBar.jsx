@@ -1,8 +1,10 @@
 import { RxAvatar } from 'react-icons/rx';
 import { PiBookOpen } from 'react-icons/pi';
-import { BsPersonWorkspace } from 'react-icons/bs';
-import { GrContact } from 'react-icons/gr';
-import { RiMenuAddLine } from 'react-icons/ri';
+import { BsPersonWorkspace } from 'react-icons/bs'; 
+import { RiMenuAddLine } from 'react-icons/ri'; 
+import { HiOutlineMail } from 'react-icons/hi';
+
+
 
 import { Link, useLocation } from 'react-router-dom';
 
@@ -55,7 +57,7 @@ const DownBar = ({ toggleOpen, handleOpen }) => {
         className='bg-gray-600 shadow shadow-white rounded-lg flex justify-center items-center p-3'
         to='/contakt'
       >
-        <GrContact
+        <HiOutlineMail
           className={`h-6 w-6 sm:h-8 sm:w-8 ${
             active === '/contakt' ? 'text-blue-400' : 'text-white'
           }`}

@@ -4,13 +4,28 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
+/* @layer components {
   .hundertPercent {
     height: 100%;
   }
+} */
 
+body {
+  @apply font-sans;
 }
 
-body{
-  @apply font-sans 
+body,
+html,
+#root{
+  height: 100%;
+  overflow-y: auto;
+}
+
+body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }

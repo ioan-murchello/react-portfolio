@@ -22,8 +22,8 @@ const BigSidebar = ({ handleOpen }) => {
           alt='avatar'
         />
       </div>
-      <h2 className='text-2xl'>Murza Janos</h2>
-      <p className='text-xl bg-gray-300 p-2 rounded-lg'>Fronted-Developer</p>
+      <h2 className='text-lg'>Murza Janos</h2>
+      <p className='text-lg bg-gray-300 p-3 rounded-lg'>Fronted-Developer</p>
       <ul className='flex gap-x-4 mt-5'>
         <li>
           <Link to=''>

@@ -30,11 +30,7 @@ const itemVariants = {
 
 const About = () => {
   return (
-    <motion.section
-      variants={staggerContainer}
-      initial='hidden'
-      animate='show' 
-    >
+    <motion.section variants={staggerContainer} initial='hidden' animate='show'>
       <MotionTitle variants={itemVariants} text='about' />
       <div className='flex flex-col gap-y-5 my-5'>
         <motion.h2 variants={itemVariants} className='text-2xl font-medium'>
@@ -56,9 +52,9 @@ const About = () => {
         variants={itemVariants}
         className='grid gap-5 grid-cols-1 md:grid-cols-2 my-5 '
       >
-        <article className='grid sm:grid-cols-8 gap-x-5 bg-purple-200 rounded-lg p-5'>
-          <AiOutlinePicture className='col-span-1 w-10 h-10 text-purple-500' />
-          <div className='col-span-7'>
+        <article className='flex flex-col sm:flex-row gap-x-4 bg-purple-200 rounded-lg p-5'>
+          <AiOutlinePicture className='w-10 h-10 flex-shrink-0 text-purple-500' />
+          <div>
             <p className='font-medium text-xl'>Landing Pages</p>
             <p>
               Our landing page is designed to captivate visitors with a clean
@@ -70,9 +66,9 @@ const About = () => {
             </p>
           </div>
         </article>
-        <article className='grid sm:grid-cols-8 gap-x-5 bg-blue-200/50 rounded-lg p-5'>
-          <AiOutlineIdcard className='col-span-1 w-10 h-10 text-blue-600' />
-          <div className='col-span-7'>
+        <article className='flex flex-col sm:flex-row gap-x-4 bg-blue-200/50 rounded-lg p-5'>
+          <AiOutlineIdcard className='w-10 h-10 flex-shrink-0 text-blue-600' />
+          <div>
             <p className='font-medium text-xl'>Portfolio Websites</p>
             <p>
               A portfolio website is a personal online showcase of your work and
@@ -85,9 +81,9 @@ const About = () => {
             </p>
           </div>
         </article>
-        <article className='grid sm:grid-cols-8 gap-x-5 bg-green-200 rounded-lg p-5'>
-          <AiFillSignature className='col-span-1 w-10 h-10 text-green-500' />
-          <div className='col-span-7'>
+        <article className='flex flex-col sm:flex-row gap-x-4 bg-green-200 rounded-lg p-5'>
+          <AiFillSignature className='w-10 h-10 flex-shrink-0 text-green-500' />
+          <div>
             <p className='font-medium text-xl'>Resume Websites</p>
             <p>
               A resume website is a personal online platform that presents your
@@ -101,9 +97,9 @@ const About = () => {
             </p>
           </div>
         </article>
-        <article className='grid sm:grid-cols-8 gap-x-5 bg-red-200/50 rounded-lg p-5'>
-          <AiOutlineFileDone className='col-span-1 w-10 h-10 text-red-500' />
-          <div className='col-span-7'>
+        <article className='flex flex-col sm:flex-row gap-x-4 bg-red-200/50 rounded-lg p-5'>
+          <AiOutlineFileDone className='w-10 h-10 flex-shrink-0 text-red-500' />
+          <div>
             <p className='font-medium text-xl'>Business Websites</p>
             <p>
               A business website is an online presence for a company, designed
