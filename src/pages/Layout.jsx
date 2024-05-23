@@ -8,12 +8,15 @@ import { useState } from 'react';
 
 const Layout = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const handleOpen = () => setIsOpen(open => !open)
+
+  window.addEventListener('resize', () => setIsOpen(false))
+
+  // const handleOpen = () => setIsOpen(open => !open)
   return (
     <div className='container h-screen mx-auto pt-5 flex'>
-        <MainSidebar toggle={isOpen}/>
+        <MainSidebar   toggle={isOpen}/>
       <aside> 
-        <BigSidebar handleOpen={isOpen} hidden='hidden' />
+        <BigSidebar handleOpen={isOpen}  />
       </aside>
       <div className=' w-full rounded-lg pt-2 pb-16 sm:pb-14 sm:py-5 px-4 sm:px-8 overflow-y-auto scrollbar-hide'>
         <Outlet />
@@ -21,7 +24,7 @@ const Layout = () => {
       <div className='hidden lg:flex items-start w-full max-w-[100px]'>
         <Sidebar />
       </div>
-      <DownBar toggleOpen={isOpen} handleOpen={handleOpen} />
+      <DownBar toggleOpen={isOpen} handleOpen={setIsOpen} />
     </div>
   );
 };

@@ -10,11 +10,10 @@ const DownBar = ({ toggleOpen, handleOpen }) => {
   const location = useLocation();
   const active = location.pathname;
 
-   const handleClick = (event) => {
-     if (toggleOpen) {
-       event.preventDefault();
-     }
+   const handleClick = () => {
+      handleOpen(false)
    };
+   const handleSetOpen = () => handleOpen((prev) => !prev);
   
   return (
     <div className='fixed max-w-[300px] w-full min-w-[260px]  p-2 mx-auto left-0 right-0 bottom-2 grid grid-cols-5 lg:hidden gap-x-3 bg-slate-500 items-center justify-center rounded-lg z-20'>
@@ -64,7 +63,7 @@ const DownBar = ({ toggleOpen, handleOpen }) => {
       </Link>
       <button
         className='bg-gray-600 shadow shadow-white rounded-lg flex justify-center items-center p-3'
-        onClick={handleOpen}
+        onClick={handleSetOpen}
       >
         <RiMenuAddLine
           className={`h-6 w-6 sm:h-8 sm:w-8 ${

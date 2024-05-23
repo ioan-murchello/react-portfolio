@@ -10,10 +10,10 @@ import { MdPhoneIphone } from 'react-icons/md';
 import { MdAlternateEmail } from 'react-icons/md';
 import { MdLocationOn } from 'react-icons/md';
 
-const BigSidebar = ({ handleOpen, hidden }) => {
+const BigSidebar = ({ handleOpen }) => {
   return (
     <div
-      className={`${hidden} top-0 left-0 relative lg:flex flex-col gap-y-5 items-center py-5`} 
+      className={`hidden top-0 left-0 relative lg:flex flex-col gap-y-5 items-center py-5`} 
     >
       <div className='w-40 flex relative h-40 rounded-full overflow-hidden shadow-lg'>
         <img
