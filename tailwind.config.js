@@ -3,6 +3,9 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      boxShadow: {
+        'custom-shadow': '0px 0px 10px  #575757',
+      },
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
       },
@@ -10,13 +13,13 @@ export default {
     },
   },
   plugins: [
-     function ({ addUtilities }) {
+    function ({ addUtilities }) {
       addUtilities({
         '.scrollbar-hide': {
-          'scrollbar-width': 'none', /* Firefox */
-          '-ms-overflow-style': 'none', /* Internet Explorer 10+ */
+          'scrollbar-width': 'none' /* Firefox */,
+          '-ms-overflow-style': 'none' /* Internet Explorer 10+ */,
           '&::-webkit-scrollbar': {
-            display: 'none', /* Safari and Chrome */
+            display: 'none' /* Safari and Chrome */,
           },
         },
       });

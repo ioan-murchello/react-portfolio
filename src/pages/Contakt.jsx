@@ -43,7 +43,7 @@ const Contakt = () => {
         ease: [0,0,0,0],
         scale: {
           type: 'spring',
-          damping: 8,
+          damping: 7,
           stiffness: 200,
           restDelta: 0.000,
         },
