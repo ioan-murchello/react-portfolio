@@ -10,15 +10,13 @@
   }
 } */
 
-
-
 body {
   @apply font-sans;
 }
 
 body,
 html,
-#root{
+#root {
   height: 100%;
   overflow-y: auto;
 }
@@ -32,3 +30,7 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.glass-effect {
+  backdrop-filter: blur(7px);
+  background: rgba(255, 255, 255, 0.2);
+}

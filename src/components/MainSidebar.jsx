@@ -1,5 +1,4 @@
-
-import avatar from '../img/portfolio_foto.jpg';
+import avatar from '../img/cat.jpg';
 import { Link } from 'react-router-dom';
 
 import { FaFacebook } from 'react-icons/fa';
@@ -11,19 +10,17 @@ import { MdPhoneIphone } from 'react-icons/md';
 import { MdAlternateEmail } from 'react-icons/md';
 import { MdLocationOn } from 'react-icons/md';
 
-
-const MainSidebar = ({toggle}) => {
-     
+const MainSidebar = ({ toggle }) => {
   return (
     <div
-      className={`fixed overflow-auto pb-32 ${
+      className={`fixed overflow-auto pb-32 pt-12 ${
         toggle ? 'translate-x-0 overflow-auto' : '-translate-x-full '
       } pt-6 flex top-0 left-0 flex-col justify-start items-center transition-transform duration-500 ease-in-out w-full h-full bg-white z-10`}
     >
-      <div className='w-40 relative flex-shrink-0 h-40 rounded-full mb-7 overflow-hidden shadow-lg'>
+      <div className='w-32 h-32 relative flex-shrink-0 rounded-full mb-7 overflow-hidden shadow-lg'>
         <img className='w-full h-full object-cover' src={avatar} alt='avatar' />
       </div>
-      <h2 className='text-2xl'>Murza Janos</h2>
+      <h2 className='text-2xl mb-3'>Murza Janos</h2>
       <p className='text-xl bg-gray-300 p-2 rounded-lg'>Fronted-Developer</p>
       <ul className='flex gap-x-4 mt-5'>
         <li>
@@ -64,5 +61,5 @@ const MainSidebar = ({toggle}) => {
       </ul>
     </div>
   );
-}
-export default MainSidebar
+};
+export default MainSidebar;

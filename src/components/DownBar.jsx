@@ -20,7 +20,7 @@ const DownBar = ({ toggleOpen, handleOpen }) => {
    const handleSetOpen = () => handleOpen((prev) => !prev);
   
   return (
-    <div className='fixed max-w-[300px] w-full min-w-[260px]  p-2 mx-auto left-0 right-0 bottom-2 grid grid-cols-5 lg:hidden gap-x-3 bg-gray-200 items-center justify-center rounded-lg z-20'>
+    <div className='fixed max-w-[300px] glass-effect w-full min-w-[260px]  p-2 mx-auto left-0 right-0 bottom-2 grid grid-cols-5 lg:hidden gap-x-3 bg-gray-200 items-center justify-center rounded-lg z-20'>
       <Link
         className='flex justify-center items-center'
         to='/'
@@ -28,7 +28,7 @@ const DownBar = ({ toggleOpen, handleOpen }) => {
       >
         <RxAvatar
           className={`h-10 w-10 ${
-            active === '/' ? 'text-blue-400' : 'text-black'
+            active === '/' ? 'text-green-500' : 'text-black'
           }`}
         />
       </Link>
@@ -39,7 +39,7 @@ const DownBar = ({ toggleOpen, handleOpen }) => {
       >
         <PiBookOpen
           className={`h-10 w-10 ${
-            active === '/resume' ? 'text-blue-400' : 'text-black'
+            active === '/resume' ? 'text-green-500' : 'text-black'
           }`}
         />
       </Link>
@@ -50,7 +50,7 @@ const DownBar = ({ toggleOpen, handleOpen }) => {
       >
         <FiGrid
           className={`h-10 w-10 ${
-            active === '/works' ? 'text-blue-400' : 'text-black'
+            active === '/works' ? 'text-green-500' : 'text-black'
           }`}
         />
       </Link>
@@ -61,7 +61,7 @@ const DownBar = ({ toggleOpen, handleOpen }) => {
       >
         <HiOutlineMail
           className={`h-10 w-10 ${
-            active === '/contakt' ? 'text-blue-400' : 'text-black'
+            active === '/contakt' ? 'text-green-500' : 'text-black'
           }`}
         />
       </Link>

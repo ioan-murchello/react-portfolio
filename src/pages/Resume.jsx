@@ -106,14 +106,14 @@ const Resume = () => {
 
         <motion.div
           variants={itemVariants}
-          className='bg-green-100 rounded-xl p-4 '
+          className='bg-black/80 rounded-xl p-4 '
         >
-          <p className='text-xl font-medium text-slate-700 capitalize'>
+          <p className='text-xl font-medium text-white capitalize'>
             Step IT Academy
           </p>
           <div className='flex items-center gap-x-4 mt-2'>
-            <RiRoadMapFill className='h-6 w-6 text-primary-300' />
-            <p className='text-xl text-rose-600 capitalize'>Praha 1, 110 00</p>
+            <RiRoadMapFill className='h-6 w-6 text-yellow-300' />
+            <p className='text-xl text-green-400 capitalize'>Praha 1, 110 00</p>
           </div>
         </motion.div>
       </motion.div>
@@ -127,14 +127,14 @@ const Resume = () => {
         <ul>
           <motion.li
             variants={itemVariants}
-            className='bg-green-100 rounded-xl p-4 my-5 flex flex-col'
+            className='bg-black/80 rounded-xl p-4 my-5 flex flex-col'
           >
-            <p className='text-xl font-medium text-slate-700 capitalize'>
+            <p className='text-xl font-medium text-white capitalize'>
               Complete course on JavaScript + React - from scratch to results
             </p>
             <div className='flex items-center gap-x-4 mt-2'>
               <RxAvatar className='h-6 w-6 text-orange-400' />
-              <p className='text-xl text-rose-600 capitalize'>
+              <p className='text-xl text-green-400 capitalize'>
                 Ivan Petrichenko
               </p>
             </div>
@@ -145,15 +145,15 @@ const Resume = () => {
           </motion.li>
           <motion.li
             variants={itemVariants}
-            className='bg-green-100 rounded-xl p-4 my-5 flex flex-col'
+            className='bg-black/80 rounded-xl p-4 my-5 flex flex-col'
           >
-            <p className='text-xl font-medium text-slate-700 capitalize'>
+            <p className='text-xl font-medium text-white capitalize'>
               Hands-on React: Create 25+ Projects. Includes Axios, Router 6,
               Query 5, Redux Toolkit
             </p>
             <div className='flex items-center gap-x-4 mt-2'>
               <RxAvatar className='h-6 w-6 text-orange-400' />
-              <p className='text-xl text-rose-600 capitalize'>John Smilga</p>
+              <p className='text-xl text-green-400 capitalize'>John Smilga</p>
             </div>
             <div className='flex items-center gap-x-4 mt-2'>
               <HiOutlineComputerDesktop className='h-6 w-6 text-purple-500' />
@@ -162,15 +162,15 @@ const Resume = () => {
           </motion.li>
           <motion.li
             variants={itemVariants}
-            className='bg-green-100 rounded-xl p-4 my-5 flex flex-col'
+            className='bg-black/80 rounded-xl p-4 my-5 flex flex-col'
           >
-            <p className='text-xl font-medium text-slate-700 capitalize'>
+            <p className='text-xl font-medium text-white capitalize'>
               Dive in and learn React.js from scratch! Learn React, Hooks,
               Redux, React Router, Next.js, Best Practices and way more!
             </p>
             <div className='flex items-center gap-x-4 mt-2'>
               <RxAvatar className='h-6 w-6 text-orange-400' />
-              <p className='text-xl text-rose-600 capitalize'>
+              <p className='text-xl text-green-400 capitalize'>
                 Maximilian Schwarzmüller
               </p>
             </div>
@@ -181,14 +181,14 @@ const Resume = () => {
           </motion.li>
           <motion.li
             variants={itemVariants}
-            className='bg-green-100 rounded-xl p-4 my-5 flex flex-col'
+            className='bg-black/80 rounded-xl p-4 my-5 flex flex-col'
           >
-            <p className='text-xl font-medium text-slate-700 capitalize'>
+            <p className='text-xl font-medium text-white capitalize'>
               Practical JavaScript (Advanced)
             </p>
             <div className='flex items-center gap-x-4 mt-2'>
               <RxAvatar className='h-6 w-6 text-orange-400' />
-              <p className='text-xl text-rose-600 capitalize'>
+              <p className='text-xl text-green-400 capitalize'>
                 Ivan Petrichenko
               </p>
             </div>
@@ -199,14 +199,14 @@ const Resume = () => {
           </motion.li>
           <motion.li
             variants={itemVariants}
-            className='bg-green-100 rounded-xl p-4 my-5 flex flex-col'
+            className='bg-black/80 rounded-xl p-4 my-5 flex flex-col'
           >
-            <p className='text-xl font-medium text-slate-700 capitalize'>
+            <p className='text-xl font-medium text-white capitalize'>
               Modern JavaScript + Vue from scratch on real projects.
             </p>
             <div className='flex items-center gap-x-4 mt-2'>
               <RxAvatar className='h-6 w-6 text-orange-400' />
-              <p className='text-xl text-rose-600 capitalize'>
+              <p className='text-xl text-green-400 capitalize'>
                 Denys Mescheryakov
               </p>
             </div>
