@@ -10,6 +10,7 @@ import wystApp from '../img/wyst-app.jpg'
 import backroadsSite from '../img/backroads.jpg'
 import unsplashimages from '../img/unsplash-images.jpg'
 import sqs from '../img/sq&s.jpg'
+import xox from '../img/xox.jpg'
 
 
 
@@ -66,5 +67,10 @@ export const sites = [
     name: 'SQ&S',
     url: 'https://ioan-murchello.github.io/sqs/dist/',
     image: sqs,
+  },
+  {
+    name: 'XOXO',
+    url: 'https://x-o-x-o-game.netlify.app/',
+    image: xox,
   },
 ];

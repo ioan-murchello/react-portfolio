@@ -1,8 +1,10 @@
-const ExternalLink = ({to, children, ...rest}) => {
+import { forwardRef } from "react";
+
+const ExternalLink = forwardRef(({to, children, ...rest}, ref) => {
     return (
-      <a href={to} target='_blank' rel='noopener noreferrer' {...rest}>
+      <a href={to} ref={ref} target='_blank' rel='noopener noreferrer' {...rest}>
         {children}
       </a>
     );
-}
+})
 export default ExternalLink
