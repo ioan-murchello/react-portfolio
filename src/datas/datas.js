@@ -11,11 +11,27 @@ import backroadsSite from '../img/backroads.jpg'
 import unsplashimages from '../img/unsplash-images.jpg'
 import sqs from '../img/sq&s.jpg'
 import xox from '../img/xox.jpg'
+import memoryGame from '../img/memory-game.jpg'
 
 
 
 
 export const sites = [
+  {
+    name: 'Memory Game',
+    url: 'https://game-for-memory-react.netlify.app/',
+    image: memoryGame,
+  },
+  {
+    name: 'SQ&S',
+    url: 'https://ioan-murchello.github.io/sqs/dist/',
+    image: sqs,
+  },
+  {
+    name: 'XOXO',
+    url: 'https://x-o-x-o-game.netlify.app/',
+    image: xox,
+  },
   { name: 'EuroStav', url: 'https://eurostav.netlify.app/', image: eurostav },
   { name: 'WystApp', url: 'https://wyst-app.netlify.app/', image: wystApp },
   {
@@ -62,15 +78,5 @@ export const sites = [
     name: 'Todo List',
     url: 'https://ioan-murchello.github.io/toDoList/toDoList/',
     image: todoListJs,
-  },
-  {
-    name: 'SQ&S',
-    url: 'https://ioan-murchello.github.io/sqs/dist/',
-    image: sqs,
-  },
-  {
-    name: 'XOXO',
-    url: 'https://x-o-x-o-game.netlify.app/',
-    image: xox,
   },
 ];
