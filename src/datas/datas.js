@@ -12,15 +12,25 @@ import unsplashimages from '../img/unsplash-images.jpg'
 import sqs from '../img/sq&s.jpg'
 import xox from '../img/xox.jpg'
 import memoryGame from '../img/memory-game.jpg'
-
-
+import marvel from '../img/marvel.jpg'
+import github_users from '../img/github-users.jpg'
 
 
 export const sites = [
   {
+    name: 'Marvel Comics',
+    url: 'https://comicses-marvel.netlify.app/',
+    image: marvel,
+  },
+  {
     name: 'Memory Game',
     url: 'https://game-for-memory-react.netlify.app/',
     image: memoryGame,
+  },
+  {
+    name: 'Github users',
+    url: 'https://githubusers-search-app.netlify.app',
+    image: github_users,
   },
   {
     name: 'SQ&S',
