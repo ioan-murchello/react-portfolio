@@ -14,6 +14,7 @@ import xox from '../img/xox.jpg'
 import memoryGame from '../img/memory-game.jpg'
 import marvel from '../img/marvel.jpg'
 import github_users from '../img/github-users.jpg'
+import employees from '../img/employees-manager.jpg'
 
 
 export const sites = [
@@ -36,6 +37,11 @@ export const sites = [
     name: 'SQ&S',
     url: 'https://ioan-murchello.github.io/sqs/dist/',
     image: sqs,
+  },
+  {
+    name: 'Employees Manager',
+    url: 'https://x-o-x-o-game.netlify.app/',
+    image: employees,
   },
   {
     name: 'XOXO',
@@ -65,7 +71,7 @@ export const sites = [
     image: backroadsSite,
   },
   {
-    name: 'Store MJ',
+    name: 'E-Comerce MJ',
     url: 'https://store-mj.netlify.app/',
     image: mjStore,
   },
