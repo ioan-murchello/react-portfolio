@@ -40,7 +40,7 @@ export const sites = [
   },
   {
     name: 'Employees Manager',
-    url: 'https://x-o-x-o-game.netlify.app/',
+    url: 'https://employees-manager-app.netlify.app',
     image: employees,
   },
   {
