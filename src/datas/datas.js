@@ -19,7 +19,7 @@ import quiz from '../img/quiz.jpg'
 
 export const sites = [
   {
-    name: 'HTML CSS JAVASCRIPT Quiz',
+    name: 'Quiz',
     url: 'https://html-css-js-quiz-app.netlify.app/',
     image: quiz,
   },
