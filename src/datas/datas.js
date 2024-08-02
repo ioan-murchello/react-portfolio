@@ -15,9 +15,14 @@ import memoryGame from '../img/memory-game.jpg'
 import marvel from '../img/marvel.jpg'
 import github_users from '../img/github-users.jpg'
 import employees from '../img/employees-manager.jpg'
-
+import quiz from '../img/quiz.jpg'
 
 export const sites = [
+  {
+    name: 'HTML CSS JAVASCRIPT Quiz',
+    url: 'https://html-css-js-quiz-app.netlify.app/',
+    image: quiz,
+  },
   {
     name: 'Marvel Comics',
     url: 'https://comicses-marvel.netlify.app/',
