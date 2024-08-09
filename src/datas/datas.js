@@ -16,8 +16,14 @@ import marvel from '../img/marvel.jpg'
 import github_users from '../img/github-users.jpg'
 import employees from '../img/employees-manager.jpg'
 import quiz from '../img/quiz.jpg'
+import indevets from '../img/indevets.jpg'
 
 export const sites = [
+  {
+    name: 'IndeVets',
+    url: 'https://indevets-veterinary.netlify.app',
+    image: indevets,
+  },
   {
     name: 'Quiz',
     url: 'https://html-css-js-quiz-app.netlify.app/',
