@@ -17,8 +17,14 @@ import github_users from '../img/github-users.jpg'
 import employees from '../img/employees-manager.jpg'
 import quiz from '../img/quiz.jpg'
 import indevets from '../img/indevets.jpg'
+import movies from '../img/movies-app.jpg'
 
 export const sites = [
+  {
+    name: 'Movies-app',
+    url: 'https://search-movies-application.netlify.app/',
+    image: movies,
+  },
   {
     name: 'IndeVets',
     url: 'https://indevets-veterinary.netlify.app',
