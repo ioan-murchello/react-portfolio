@@ -18,8 +18,14 @@ import employees from '../img/employees-manager.jpg'
 import quiz from '../img/quiz.jpg'
 import indevets from '../img/indevets.jpg'
 import movies from '../img/movies-app.jpg'
+import react_quiz from '../img//react-quiz.jpg'
 
 export const sites = [
+  {
+    name: 'React-quiz',
+    url: 'https://quiz-react-for-begginers.netlify.app/',
+    image: react_quiz,
+  },
   {
     name: 'Movies-app',
     url: 'https://search-movies-application.netlify.app/',
