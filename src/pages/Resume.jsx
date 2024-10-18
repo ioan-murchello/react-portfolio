@@ -46,15 +46,16 @@ const Resume = () => {
           variants={staggerContainer}
           initial='hidden'
           animate='show'
-          className='flex my-8 flex-wrap gap-4 justify-evenly'
+          className='flex my-8 flex-wrap gap-8 gap-y-16 justify-evenly'
         >
           {icons.map(icon => {
             const IconComponent = icon.icon
             return (
-              <motion.li key={icon.id} variants={itemVariants}>
+              <motion.li className='flex flex-col items-center justify-center gap-y-4' key={icon.id} variants={itemVariants}>
                 <IconComponent
                   className={`h-14 w-14 sm:w-16 sm:h-16 ${icon.color}  `}
                 />
+                <p>{icon.title}</p>
               </motion.li>
             );
           })} 

@@ -3,8 +3,7 @@ import Sidebar from '../components/Sidebar';
 import BigSidebar from '../components/BigSidebar';
 import DownBar from '../components/DownBar';
 import MainSidebar from '../components/MainSidebar';
-import { useState } from 'react';
-import SpaceBackground from '../components/SpaceBackground';
+import { useState } from 'react'; 
  
 
 const Layout = () => {
