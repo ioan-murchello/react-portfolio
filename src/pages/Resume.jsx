@@ -1,23 +1,11 @@
 import Title from '../components/Title';
+import { icons } from '../datas/icons';
 
 import { MdOutlineCastForEducation } from 'react-icons/md';
 import { RiRoadMapFill } from 'react-icons/ri';
 import { RiRadioButtonLine } from 'react-icons/ri';
 import { HiOutlineComputerDesktop } from 'react-icons/hi2';
-import { BiSolidCabinet } from 'react-icons/bi';
-
-
-
-import { ImHtmlFive2 } from 'react-icons/im';
-import { FaCss3 } from 'react-icons/fa6';
-import { SiJavascript } from 'react-icons/si';
-import { FaSass } from 'react-icons/fa6';
-import { FaGitAlt } from 'react-icons/fa';
-import { FaGulp } from 'react-icons/fa6';
-import { FaReact } from 'react-icons/fa';
-import { RiTailwindCssFill } from 'react-icons/ri';
-import { SiJquery } from 'react-icons/si';
-
+import { BiSolidCabinet } from 'react-icons/bi'; 
 import { RxAvatar } from 'react-icons/rx';
 
 import { motion } from 'framer-motion';
@@ -60,33 +48,16 @@ const Resume = () => {
           animate='show'
           className='flex my-8 flex-wrap gap-4 justify-evenly'
         >
-          <motion.li variants={itemVariants}>
-            <ImHtmlFive2 className='h-14 w-14 sm:w-16 sm:h-16 text-orange-500' />
-          </motion.li>
-          <motion.li variants={itemVariants}>
-            <FaCss3 className='h-14 w-14 sm:w-16 sm:h-16 text-blue-600' />
-          </motion.li>
-          <motion.li variants={itemVariants}>
-            <SiJavascript className='h-14 w-14 sm:w-16 sm:h-16 text-yellow-400' />
-          </motion.li>
-          <motion.li variants={itemVariants}>
-            <FaSass className='h-14 w-14 sm:w-16 sm:h-16 text-red-600' />
-          </motion.li>
-          <motion.li variants={itemVariants}>
-            <FaGitAlt className='h-14 w-14 sm:w-16 sm:h-16 text-orange-600' />
-          </motion.li>
-          <motion.li variants={itemVariants}>
-            <FaGulp className='h-14 w-14 sm:w-16 sm:h-16 text-red-400' />
-          </motion.li>
-          <motion.li variants={itemVariants}>
-            <FaReact className='h-14 w-14 sm:w-16 sm:h-16 text-blue-300' />
-          </motion.li>
-          <motion.li variants={itemVariants}>
-            <RiTailwindCssFill className='h-14 w-14 sm:w-16 sm:h-16 text-blue-400' />
-          </motion.li>
-          <motion.li variants={itemVariants}>
-            <SiJquery className='h-14 w-14 sm:w-16 sm:h-16 text-blue-600' />
-          </motion.li>
+          {icons.map(icon => {
+            const IconComponent = icon.icon
+            return (
+              <motion.li key={icon.id} variants={itemVariants}>
+                <IconComponent
+                  className={`h-14 w-14 sm:w-16 sm:h-16 ${icon.color}  `}
+                />
+              </motion.li>
+            );
+          })} 
         </motion.ul>
       </motion.div>
 

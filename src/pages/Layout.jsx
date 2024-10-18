@@ -4,6 +4,7 @@ import BigSidebar from '../components/BigSidebar';
 import DownBar from '../components/DownBar';
 import MainSidebar from '../components/MainSidebar';
 import { useState } from 'react';
+import SpaceBackground from '../components/SpaceBackground';
  
 
 const Layout = () => {
@@ -13,6 +14,7 @@ const Layout = () => {
 
   return (
     <div className='container h-screen mx-auto flex'>
+      {/* <SpaceBackground/> */}
         <MainSidebar   toggle={isOpen}/>
       <aside className='pt-2'> 
         <BigSidebar handleOpen={isOpen}  />
