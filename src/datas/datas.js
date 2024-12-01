@@ -1,26 +1,32 @@
-import paracell from '../img/paracell.jpg'
-import jhonPortfolio from '../img/jhon-sites.jpg'
-import avilio from '../img/avilio-site.jpg'
-import cocktailMixMaster from '../img/cocktail-mix-master.jpeg'
-import eurostav from '../img/eurostav.jpg'
-import foodStore from '../img/food-store.jpg'
-import mjStore from '../img/mj-store.jpg'
-import todoListJs from '../img/todolist.jpg' 
-import wystApp from '../img/wyst-app.jpg'
-import backroadsSite from '../img/backroads.jpg'
-import unsplashimages from '../img/unsplash-images.jpg'
-import sqs from '../img/sq&s.jpg'
-import xox from '../img/xox.jpg'
-import memoryGame from '../img/memory-game.jpg'
-import marvel from '../img/marvel.jpg'
-import github_users from '../img/github-users.jpg'
-import employees from '../img/employees-manager.jpg'
-import quiz from '../img/quiz.jpg'
-import indevets from '../img/indevets.jpg'
-import movies from '../img/movies-app.jpg'
-import react_quiz from '../img//react-quiz.jpg'
+import paracell from '../img/paracell.jpg';
+import jhonPortfolio from '../img/jhon-sites.jpg';
+import avilio from '../img/avilio-site.jpg';
+import cocktailMixMaster from '../img/cocktail-mix-master.jpeg';
+import eurostav from '../img/eurostav.jpg';
+import foodStore from '../img/food-store.jpg';
+import mjStore from '../img/mj-store.jpg';
+import todoListJs from '../img/todolist.jpg';
+import wystApp from '../img/wyst-app.jpg';
+import backroadsSite from '../img/backroads.jpg';
+import unsplashimages from '../img/unsplash-images.jpg';
+import sqs from '../img/sq&s.jpg';
+import xox from '../img/xox.jpg';
+import memoryGame from '../img/memory-game.jpg';
+import marvel from '../img/marvel.jpg';
+import github_users from '../img/github-users.jpg';
+import employees from '../img/employees-manager.jpg';
+import quiz from '../img/quiz.jpg';
+import indevets from '../img/indevets.jpg';
+import movies from '../img/movies-app.jpg';
+import react_quiz from '../img//react-quiz.jpg';
+import pizza from '../img/Pizza.jpg';
 
 export const sites = [
+  {
+    name: 'Pizza Co.',
+    url: 'https://react-fast-pizza-company.netlify.app/',
+    image: pizza,
+  },
   {
     name: 'React-quiz',
     url: 'https://quiz-react-for-begginers.netlify.app/',
