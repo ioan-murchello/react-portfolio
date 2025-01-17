@@ -23,7 +23,7 @@ const BigSidebar = ({ handleOpen }) => {
         />
       </div>
       <h2 className='text-lg'>Murza Janos</h2>
-      <p className='text-lg bg-gray-300 p-2 rounded-lg'>Fronted-Developer</p>
+      <p className='text-lg bg-gray-300 p-2 rounded-lg'>Frontend-Developer</p>
       <ul className='flex gap-x-4 mt-3'>
         <li>
           <Link to=''>
