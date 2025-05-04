@@ -20,8 +20,14 @@ import indevets from '../img/indevets.jpg';
 import movies from '../img/movies-app.jpg';
 import react_quiz from '../img//react-quiz.jpg';
 import pizza from '../img/Pizza.jpg';
+import gallowsGame from '../img/gallows_game.png';
 
 export const sites = [
+  {
+    name: 'Gallows Game',
+    url: 'https://gallow-game-with-typescript.netlify.app/',
+    image: gallowsGame,
+  },
   {
     name: 'Pizza Co.',
     url: 'https://react-fast-pizza-company.netlify.app/',
