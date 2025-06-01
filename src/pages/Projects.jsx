@@ -1,5 +1,5 @@
-import Title from '../components/Title'; 
-import ExternalLink from '../components/ExternalLink';
+import Title from '../components/Title.jsx'; 
+import ExternalLink from '../components/ExternalLink.jsx';
 import {sites} from '../datas/datas.js'
 import { motion } from 'framer-motion'; 
 
@@ -21,7 +21,7 @@ const itemVariants = {
 
 const ELink = motion(ExternalLink)
 
-const Works = () => {
+const Projects = () => {
   return (
     <section>
       <Title text='Projects' />
@@ -57,4 +57,4 @@ const Works = () => {
     </section>
   );
 };
-export default Works;
+export default Projects;
