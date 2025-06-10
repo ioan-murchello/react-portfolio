@@ -21,7 +21,7 @@ const MainSidebar = ({ toggle }) => {
         <img className='w-full h-full object-cover' src={avatar} alt='avatar' />
       </div>
       <h2 className='text-2xl mb-3'>Murza Janos</h2>
-      <p className='text-xl bg-gray-300 p-2 rounded-lg'>Frontend-Developer</p>
+      <p className='text-xl bg-gray-300 p-2 rounded-lg'>Front-End Developer</p>
       <ul className='flex gap-x-4 mt-5'>
         <li>
           <Link to=''>
