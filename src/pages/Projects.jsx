@@ -29,7 +29,7 @@ const Projects = () => {
         variants={staggerContainer}
         initial='hidden'
         animate='show'
-        className='grid gap-x-4 gap-y-5 rounded-xl border p-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 '
+        className='grid gap-x-4 gap-y-5 rounded-xl p-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'
       >
         {sites.map((item) => {
           const { image, url, name } = item;
@@ -38,7 +38,7 @@ const Projects = () => {
               variants={itemVariants}
               key={name}
               to={url}
-              className='shadow-custom-shadow group transition-all duration-300 md:hover:scale-[0.99] group rounded-lg'
+              className='shadow-custom-shadow group transition-all duration-300 sm:hover:scale-[0.99] group rounded-lg'
             >
               <div className='bg-gray-100 transition-all duration-400 md:group-hover:bg-[#adadad] flex flex-col relative p-4 h-full  rounded-lg'>
                 <img

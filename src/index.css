@@ -3,12 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* @layer components {
-  .hundertPercent {
-    height: 100%;
-  }
-} */
+ 
 
 body {
   @apply font-sans;
@@ -29,8 +24,4 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
-
-.glass-effect {
-  backdrop-filter: blur(7px);
-  background: rgba(255, 255, 255, 0.2);
-}
+ 

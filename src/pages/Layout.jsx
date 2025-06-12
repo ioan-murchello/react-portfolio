@@ -1,9 +1,10 @@
 import { Outlet } from "react-router-dom";
-import Sidebar from "../components/Sidebar";
-import BigSidebar from "../components/BigSidebar";
-import DownBar from "../components/DownBar";
-import MainSidebar from "../components/MainSidebar";
 import { useEffect, useState } from "react";
+
+import LeftBottomSidebar from "../components/LeftBottomSidebar";
+import BigSidebar from "../components/MainSidebar";
+import Aside from "../components/Aside";
+
 
 const Layout = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,19 +17,17 @@ const Layout = () => {
   }, []);
 
   return (
-    <div className="container h-screen mx-auto flex p-2">
-      <MainSidebar toggle={isOpen} />
-      <aside className="pt-2">
+    <main className="container h-screen w-full mx-auto flex">
+      <Aside isOpen={isOpen}>
         <BigSidebar />
-      </aside>
-      <div className=" w-full rounded-lg pt-2 pb-16 sm:pb-2 sm:py-5 px-4 sm:px-8 overflow-y-auto scrollbar-hide">
+      </Aside>
+      <section className="w-full rounded-lg pt-2 pb-16 sm:pb-2 sm:py-5 px-4 sm:px-8 overflow-y-auto scrollbar-hide">
         <Outlet />
-      </div>
-      <div className="hidden pt-5 lg:flex items-start w-full max-w-16">
-        <Sidebar />
-      </div>
-      <DownBar toggleOpen={isOpen} handleOpen={setIsOpen} />
-    </div>
+      </section>
+      <aside className="fixed bottom-0 z-[999] left-1/2 -translate-x-1/2 flex justify-center p-4 w-full max-w-[300px] lg:relative lg:translate-x-0 lg:left-0 lg:max-w-max lg:min-h-fit">
+        <LeftBottomSidebar toggleOpen={isOpen} handleOpen={setIsOpen} />
+      </aside>
+    </main>
   );
 };
 export default Layout;

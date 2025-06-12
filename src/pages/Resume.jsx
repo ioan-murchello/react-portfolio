@@ -1,12 +1,6 @@
 import Title from '../components/Title';
-import { icons } from '../datas/icons';
-
-import { MdOutlineCastForEducation } from 'react-icons/md';
-import { RiRoadMapFill } from 'react-icons/ri';
-import { RiRadioButtonLine } from 'react-icons/ri';
-import { HiOutlineComputerDesktop } from 'react-icons/hi2';
-import { BiSolidCabinet } from 'react-icons/bi'; 
-import { RxAvatar } from 'react-icons/rx';
+import { icons } from '../datas/icons'; 
+import { BiSolidCabinet } from 'react-icons/bi';  
 
 import { motion } from 'framer-motion';
 
