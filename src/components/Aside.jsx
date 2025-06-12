@@ -5,7 +5,7 @@ const Aside = ({ isOpen, children }) => {
     fixed  min-w-fit inset-y-0 left-0 z-10
     bg-white transition-all duration-500 ease-in-out
     flex flex-col justify-start items-center
-    overflow-y-auto p-6 w-full h-dvh
+    overflow-y-auto p-4 w-full h-svh
 
     ${isOpen ? "translate-x-0" : "w-0 -translate-x-full"}
 
