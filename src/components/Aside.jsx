@@ -7,7 +7,7 @@ const Aside = ({ isOpen, children }) => {
     flex flex-col justify-start items-center
     overflow-hidden p-6
 
-    ${isOpen ? "w-full translate-x-0" : "w-0 -translate-x-full"}
+    ${isOpen ? "w-full h-dvh translate-x-0" : "w-0 -translate-x-full"}
 
     lg:static lg:w-auto lg:h-auto lg:translate-x-0 lg:p-6 lg:flex lg:bg-white  
   `}
