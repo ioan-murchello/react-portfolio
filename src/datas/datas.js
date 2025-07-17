@@ -22,7 +22,7 @@ import react_quiz from "../img//react-quiz.jpg";
 import pizza from "../img/Pizza.jpg";
 import gallowsGame from "../img/gallows_game.png";
 import oasis from "../img/oasis.png";
-import worldwise from '../img/worldwise.png';
+import worldwise from '../img/worldWise.png';
 export const sites = [
   {
     name: "WorldWise",
