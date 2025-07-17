@@ -22,8 +22,13 @@ import react_quiz from "../img//react-quiz.jpg";
 import pizza from "../img/Pizza.jpg";
 import gallowsGame from "../img/gallows_game.png";
 import oasis from "../img/oasis.png";
-
+import worldwise from '../img/worldwise.png';
 export const sites = [
+  {
+    name: "WorldWise",
+    url: "https://traveling-app-world-wise.netlify.app/",
+    image: worldwise,
+  },
   {
     name: "Oasis in Wild",
     url: "https://oasis-in-wild.netlify.app/",
