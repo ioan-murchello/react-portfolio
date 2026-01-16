@@ -23,7 +23,14 @@ import pizza from "../img/Pizza.jpg";
 import gallowsGame from "../img/gallows_game.png";
 import oasis from "../img/oasis.png";
 import worldwise from '../img/worldWise.png';
+import spotifyClone from "../img/spotifyClone.png";
+
 export const sites = [
+  {
+    name: "SpotifyClone",
+    url: "https://spotifyconcurent.netlify.app",
+    image: spotifyClone,
+  },
   {
     name: "WorldWise",
     url: "https://traveling-app-world-wise.netlify.app/",
