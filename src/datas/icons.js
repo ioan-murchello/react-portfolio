@@ -24,13 +24,6 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiStyledcomponents } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
 import { SiReactrouter } from "react-icons/si";
-
-// sidebar icons
-import { RxAvatar } from "react-icons/rx";
-import { PiBookOpen } from "react-icons/pi";
-import { FiGrid } from "react-icons/fi";
-import { HiOutlineMail } from "react-icons/hi";
-
 import { SiMongodb } from "react-icons/si";
 import { SiCloudinary } from "react-icons/si";
 import { DiRedis } from "react-icons/di";
