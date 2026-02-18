@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-=======
 import zustand from "../img/zustand.svg";
 import tanstack from "../img/tanstack.svg";
->>>>>>> 7118bde (added new iconst to resume section)
+
 // social links
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -26,14 +24,13 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiStyledcomponents } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
 import { SiReactrouter } from "react-icons/si";
-<<<<<<< HEAD
 
 // sidebar icons
-import { RxAvatar } from 'react-icons/rx';  
-import { PiBookOpen } from 'react-icons/pi';
-import { FiGrid } from 'react-icons/fi';
-import { HiOutlineMail } from 'react-icons/hi';
-=======
+import { RxAvatar } from "react-icons/rx";
+import { PiBookOpen } from "react-icons/pi";
+import { FiGrid } from "react-icons/fi";
+import { HiOutlineMail } from "react-icons/hi";
+
 import { SiMongodb } from "react-icons/si";
 import { SiCloudinary } from "react-icons/si";
 import { DiRedis } from "react-icons/di";
@@ -43,7 +40,6 @@ import { RxAvatar } from "react-icons/rx";
 import { PiBookOpen } from "react-icons/pi";
 import { FiGrid } from "react-icons/fi";
 import { HiOutlineMail } from "react-icons/hi";
->>>>>>> 7118bde (added new iconst to resume section)
 
 export const icons = [
   { id: 1, title: "html", icon: ImHtmlFive2, color: "text-orange-500" },
@@ -72,8 +68,7 @@ export const icons = [
     icon: SiStyledcomponents,
     color: "text-pink-600",
   },
-<<<<<<< HEAD
-=======
+
   {
     id: 12,
     title: "mongoDB",
@@ -104,7 +99,6 @@ export const icons = [
     icon: DiRedis,
     color: "text-red-500",
   },
->>>>>>> 7118bde (added new iconst to resume section)
 ];
 
 export const socialIcons = [
@@ -163,41 +157,29 @@ export const iconsForSmallSidebar = [
   {
     id: 1,
     icon: RxAvatar,
-<<<<<<< HEAD
-    color: "text-green-400", 
-=======
     color: "text-green-400",
->>>>>>> 7118bde (added new iconst to resume section)
+    color: "text-green-400",
     path: "/",
   },
   {
     id: 2,
     icon: PiBookOpen,
-<<<<<<< HEAD
-    color: "text-green-400", 
-=======
     color: "text-green-400",
->>>>>>> 7118bde (added new iconst to resume section)
+    color: "text-green-400",
     path: "/resume",
   },
   {
     id: 3,
     icon: FiGrid,
-<<<<<<< HEAD
-    color: "text-green-400", 
-=======
     color: "text-green-400",
->>>>>>> 7118bde (added new iconst to resume section)
+    color: "text-green-400",
     path: "/projects",
   },
   {
     id: 4,
     icon: HiOutlineMail,
-<<<<<<< HEAD
-    color: "text-green-400", 
-=======
     color: "text-green-400",
->>>>>>> 7118bde (added new iconst to resume section)
+    color: "text-green-400",
     path: "/contakt",
   },
 ];
