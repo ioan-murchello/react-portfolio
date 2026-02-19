@@ -27,6 +27,7 @@ import { SiReactrouter } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiCloudinary } from "react-icons/si";
 import { DiRedis } from "react-icons/di";
+import { SiSocketdotio } from "react-icons/si";
 
 // sidebar icons
 import { RxAvatar } from "react-icons/rx";
@@ -91,6 +92,12 @@ export const icons = [
     title: "redis",
     icon: DiRedis,
     color: "text-red-500",
+  },
+  {
+    id: 17,
+    title: "socket.io",
+    icon: SiSocketdotio,
+    color: "text-green-500",
   },
 ];
 
