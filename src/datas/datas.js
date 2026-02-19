@@ -25,11 +25,17 @@ import oasis from "../img/oasis.png";
 import worldwise from "../img/worldWise.png";
 import spotifyClone from "../img/spotifyClone.png";
 import chatty from "../img/chatty.png";
+import swiper from "../img/swiper.png";
 
 export const sites = [
   {
+    name: "Swiper",
+    url: "https://zingy-torte-43b057.netlify.app",
+    image: swiper,
+  },
+  {
     name: "Chatty",
-    url: "https://musical-strudel-575d32.netlify.app/",
+    url: "https://musical-strudel-575d32.netlify.app",
     image: chatty,
   },
   {
