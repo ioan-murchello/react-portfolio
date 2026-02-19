@@ -42,6 +42,7 @@ const Resume = () => {
           animate="show"
           className="flex my-8 flex-wrap gap-8 gap-y-16 justify-evenly"
         >
+        
           {icons.map((icon) => {
             const IconComponent = icon.icon;
             const isImage = typeof icon.icon === "string";
