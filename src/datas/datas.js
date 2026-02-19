@@ -22,10 +22,16 @@ import react_quiz from "../img//react-quiz.jpg";
 import pizza from "../img/Pizza.jpg";
 import gallowsGame from "../img/gallows_game.png";
 import oasis from "../img/oasis.png";
-import worldwise from '../img/worldWise.png';
+import worldwise from "../img/worldWise.png";
 import spotifyClone from "../img/spotifyClone.png";
+import chatty from "../img/chatty.png";
 
 export const sites = [
+  {
+    name: "Chatty",
+    url: "https://musical-strudel-575d32.netlify.app/",
+    image: chatty,
+  },
   {
     name: "SpotifyClone",
     url: "https://spotifyconcurent.netlify.app",
@@ -148,12 +154,4 @@ export const sites = [
     url: "https://ioan-murchello.github.io/toDoList/toDoList/",
     image: todoListJs,
   },
- ];
-        
-
-
-
-  
-
-
-
+];
