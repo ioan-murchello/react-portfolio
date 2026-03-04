@@ -26,8 +26,14 @@ import worldwise from "../img/worldWise.png";
 import spotifyClone from "../img/spotifyClone.png";
 import chatty from "../img/chatty.png";
 import swiper from "../img/swiper.png";
+import guessGame from "../img/guessanddraw.png";
 
 export const sites = [
+  {
+    name: "Guess & Draw",
+    url: "https://tangerine-starburst-2c3c73.netlify.app",
+    image: guessGame,
+  },
   {
     name: "Swiper",
     url: "https://zingy-torte-43b057.netlify.app",
@@ -52,6 +58,11 @@ export const sites = [
     name: "Oasis in Wild",
     url: "https://oasis-in-wild.netlify.app/",
     image: oasis,
+  },
+  {
+    name: "E-Comerce MJ",
+    url: "https://store-mj.netlify.app/",
+    image: mjStore,
   },
   {
     name: "Gallows Game",
@@ -134,11 +145,6 @@ export const sites = [
     name: "Backroads",
     url: "https://backroads-site-to-portfolio.netlify.app/",
     image: backroadsSite,
-  },
-  {
-    name: "E-Comerce MJ",
-    url: "https://store-mj.netlify.app/",
-    image: mjStore,
   },
   {
     name: "Paracell",
