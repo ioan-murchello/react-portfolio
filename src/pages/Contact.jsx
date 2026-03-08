@@ -9,10 +9,10 @@ import Title from '../components/Title';
 const schema = yup.object({
   name: yup.string().min(3, 'Minimum 3 characters').required('Required'),
   email: yup.string().email('Email format is not valid').required('Required'),
-  thema: yup.string().min(3, 'Minimum 3 characters'),
+  business: yup.string().min(3, 'Minimum 3 characters'),
 });
 
-const Contakt = () => {
+const Contact = () => {
   const onSubmitForm = async (obj) => {
     try {
       const res = await fetch('https://jsonplaceholder.typicode.com/posts', {
@@ -23,9 +23,9 @@ const Contakt = () => {
         body: JSON.stringify(obj),
       });
       if (res.status === 201) {
-        toast.success('Thank you! I will contakt You soon');
+        toast.success('Thank you! I will contact You soon');
       } else {
-        toast.error('Ooops... Some error with server. Try later');
+        toast.error('Oops... Some error with server. Try later', {id: "error-mail"});
       }
       return res;
     } catch (error) {
@@ -49,7 +49,7 @@ const Contakt = () => {
         },
       }}
     >
-      <Title text='Contakt' />
+      <Title text='Contact' />
       <Formik
         initialValues={{ name: '', email: '', business: '' }}
         validationSchema={schema}
@@ -64,7 +64,7 @@ const Contakt = () => {
               <label htmlFor='name'>Name</label>
               <Field
                 className='border focus:border-blue-400 shadow-md focus:outline-none active:border-blue-500 rounded-lg p-3'
-                placeholder='Jhon Doe'
+                placeholder='John Doe'
                 name='name'
                 type='text'
               />
@@ -76,7 +76,7 @@ const Contakt = () => {
               <label htmlFor='email'>Email</label>
               <Field
                 className='border focus:border-blue-400 shadow-md focus:outline-none active:border-blue-500  rounded-lg p-3'
-                placeholder='jhondoe@gmail.com'
+                placeholder='johndoe@gmail.com'
                 name='email'
                 type='email'
               />
@@ -111,4 +111,4 @@ const Contakt = () => {
     </motion.section>
   );
 };
-export default Contakt;
+export default Contact;

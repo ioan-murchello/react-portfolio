@@ -27,8 +27,14 @@ import spotifyClone from "../img/spotifyClone.png";
 import chatty from "../img/chatty.png";
 import swiper from "../img/swiper.png";
 import guessGame from "../img/guessanddraw.png";
+import typingTrainer from '../img/typing-trainer.png'
 
 export const sites = [
+  {
+    name: "Typing Trainer",
+    url: "https://elaborate-scone-c82612.netlify.app/",
+    image: typingTrainer,
+  },
   {
     name: "Guess & Draw",
     url: "https://tangerine-starburst-2c3c73.netlify.app",

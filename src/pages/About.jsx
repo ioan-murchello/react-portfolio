@@ -5,9 +5,8 @@ import { AiOutlineIdcard } from 'react-icons/ai';
 import { AiFillSignature } from 'react-icons/ai';
 import { AiOutlineFileDone } from 'react-icons/ai';
 
-
-
-import { motion } from 'framer-motion';
+import { motion } from 'framer-motion'; 
+import ServicesList from '../components/ServicesList';
 
 const MotionTitle = motion(Title);
 
@@ -48,11 +47,11 @@ const About = () => {
       <motion.h2 variants={itemVariants} className='text-2xl font-medium'>
         What I Do
       </motion.h2>
-      <motion.div
+      {/* <motion.div
         variants={itemVariants}
         className='grid gap-5 grid-cols-1 md:grid-cols-2 my-5 '
-      >
-        <article className='flex flex-col sm:flex-row gap-x-4 bg-purple-200 rounded-lg p-5'>
+      > 
+        <article className='flex flex-row sm:flex-row gap-x-4 bg-purple-200 rounded-lg p-5'>
           <AiOutlinePicture className='w-10 h-10 flex-shrink-0 text-purple-500' />
           <div>
             <p className='font-medium text-xl'>Landing Pages</p>
@@ -112,7 +111,8 @@ const About = () => {
             </p>
           </div>
         </article>
-      </motion.div>
+      </motion.div> */}
+      <ServicesList/>
     </motion.section>
   );
 };
