@@ -24,7 +24,7 @@ const Layout = () => {
       <section className="w-full rounded-lg pt-2 pb-16 sm:pb-2 sm:py-5 px-4 sm:px-8 overflow-y-auto scrollbar-hide">
         <Outlet />
       </section>
-      <aside className="fixed bottom-0 z-[999] left-1/2 -translate-x-1/2 flex justify-center p-4 w-full max-w-[300px] lg:relative lg:translate-x-0 lg:left-0 lg:max-w-max lg:min-h-fit">
+      <aside className="fixed bottom-0 z-[999] left-1/2 -translate-x-1/2 flex justify-center p-4 w-full max-w-[300px] lg:relative lg:translate-x-0 lg:left-0 lg:max-w-max lg:h-fit">
         <LeftBottomSidebar toggleOpen={isOpen} handleOpen={setIsOpen} />
       </aside>
     </main>

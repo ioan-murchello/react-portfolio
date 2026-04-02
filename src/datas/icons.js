@@ -129,20 +129,20 @@ export const socialIcons = [
 ];
 
 export const sidebarIcons = [
-  {
-    id: 1,
-    icon: MdPhoneIphone,
-    color: "text-red-400",
-    availability: "tel:+420771509321",
-    title: "+420771509321",
-  },
-  {
-    id: 2,
-    icon: MdAlternateEmail,
-    color: "text-green-400",
-    availability: "mailto:janosmurza@gmail.com",
-    title: "janosmurza@gmail.com",
-  },
+  // {
+  //   id: 1,
+  //   icon: MdPhoneIphone,
+  //   color: "text-red-400",
+  //   availability: "tel:+420771509321",
+  //   title: "+420771509321",
+  // },
+  // {
+  //   id: 2,
+  //   icon: MdAlternateEmail,
+  //   color: "text-green-400",
+  //   availability: "mailto:janosmurza@gmail.com",
+  //   title: "janosmurza@gmail.com",
+  // },
   {
     id: 3,
     icon: MdLocationOn,

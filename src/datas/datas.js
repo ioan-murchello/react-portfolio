@@ -27,9 +27,15 @@ import spotifyClone from "../img/spotifyClone.png";
 import chatty from "../img/chatty.png";
 import swiper from "../img/swiper.png";
 import guessGame from "../img/guessanddraw.png";
-import typingTrainer from '../img/typing-trainer.png'
+import typingTrainer from '../img/typing-trainer.png';
+import githubMmanager from '../img/github-manager.png'
 
 export const sites = [
+  {
+    name: "Github Manager",
+    url: "https://github-repos-manager.onrender.com/",
+    image: githubMmanager,
+  },
   {
     name: "Typing Trainer",
     url: "https://elaborate-scone-c82612.netlify.app/",

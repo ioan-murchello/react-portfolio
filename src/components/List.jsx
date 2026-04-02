@@ -11,7 +11,7 @@ const List = ({ listToRender, type, modified }) => {
 
     case "icons":
       ulStyles =
-        "flex w-full gap-y-2 flex-col items-center lg:items-start mt-3";
+        "flex w-full gap-y-2 flex-col items-center mt-3";
       liStyles = "flex gap-x-2 gap-y-2 items-center rounded-lg group";
       iconClass =
         "h-6 w-6 lg:h-8 lg:w-8 transform transition-transform duration-300 group-hover:rotate-12";

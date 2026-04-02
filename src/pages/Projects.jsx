@@ -25,7 +25,7 @@ const Projects = () => {
   return (
     <section>
       <Title text="Projects" />
-      <p className="bg-yellow-300 p-2 rounded-md text-lg">
+      <p className="bg-yellow-300 p-2 rounded-md text-md sm:text-lg">
         Some websites may take a little while to load at first. This is because
         I'm using the service's free deployment plans. Thank you for your
         understanding ❤️

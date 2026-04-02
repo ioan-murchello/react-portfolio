@@ -12,8 +12,10 @@ const MainSidebar = () => {
           alt="Author avatar"
         />
       </div>
-      <h2 className="text-xl lg:text-2xl">Janos Murza</h2>
-      <p className="text-md lg:text-xl bg-gray-300 p-2 rounded-lg">Front-End Developer</p>
+      <h2 className="text-xl lg:text-2xl">Jhon Murza</h2>
+      <p className="text-md lg:text-xl bg-gray-300 p-2 rounded-lg">
+        Front-End Developer
+      </p>
 
       <List listToRender={socialIcons} type="social" modified={false} />
       <List listToRender={sidebarIcons} type="icons" modified={true} />

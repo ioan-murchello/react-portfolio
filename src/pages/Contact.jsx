@@ -99,7 +99,7 @@ const Contact = () => {
                 component='div'
               />
               <button
-                className='w-full border shadow-lg mt-4 rounded-xl bg-gray-100 py-4 max-w-40 sm:max-w-60 flex justify-center items-center transition-transform duration-300 ease-in-out group hover:scale-95'
+                className='w-full border shadow-lg mt-4 rounded-xl bg-gray-100 py-2.5 sm:py-4 max-w-40 sm:max-w-60 flex justify-center items-center transition-transform duration-300 ease-in-out group hover:scale-95'
                 type='submit'
               >
                 <FaPaperPlane className='w-6 h-6 text-blue-400 transform transition-transform duration-300 ease-in-out group-hover:scale-110 group-hover:rotate-12' />
