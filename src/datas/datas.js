@@ -27,10 +27,16 @@ import spotifyClone from "../img/spotifyClone.png";
 import chatty from "../img/chatty.png";
 import swiper from "../img/swiper.png";
 import guessGame from "../img/guessanddraw.png";
-import typingTrainer from '../img/typing-trainer.png';
-import githubMmanager from '../img/github-manager.png'
+import typingTrainer from "../img/typing-trainer.png";
+import githubMmanager from "../img/github-manager.png";
+import eTrackerGQL from "../img/graphQL.png";
 
 export const sites = [
+  {
+    name: "ETRacker GraphQL",
+    url: "https://etracker-gql.onrender.com",
+    image: eTrackerGQL,
+  },
   {
     name: "Github Manager",
     url: "https://github-repos-manager.onrender.com/",
